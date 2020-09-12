@@ -178,11 +178,12 @@ nav a {
     color: black;
     padding-top: 1.5rem;
 }
+
 /*Jumbo Image*/
 .jumbo {
-    margin: 1.5rem auto;    
+    margin: 1.5rem auto;
     height: 10rem;
-    width: 100%;    
+    width: 100%;
 }
 
 .container {
@@ -230,34 +231,44 @@ nav a {
     align-items: center;
     justify-content: center;
 }
-/*Box Coloring*/ 
+
+/*Box Coloring*/
 #box1 {
     background: teal;
 }
+
 #box2 {
     background: gold;
 }
+
 #box3 {
     background: cadetblue;
 }
+
 #box4 {
     background: coral;
 }
+
 #box5 {
-    background:crimson;
+    background: crimson;
 }
+
 #box6 {
     background: forestgreen;
 }
+
 #box7 {
     background: darkorchid;
 }
+
 #box8 {
     background: hotpink;
 }
+
 #box9 {
     background: indigo;
 }
+
 #box10 {
     background: dodgerblue;
 }
@@ -289,9 +300,55 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: .25rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+hr {
+    margin: 1rem 0;
+    border-top: 1.5px dashed black;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.card_row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: .75rem auto;
+    padding: .75rem;
+}
+
+.card img {
+    margin: .5rem auto;
+}
+
+.card p {
+    margin: .25rem 0;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    padding: 1.5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.close {
+    margin: 2rem 0;
+    padding: .25rem;
+    width: 80%;
 }
